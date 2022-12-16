@@ -1,0 +1,28 @@
+body {
+    height: 100vh;
+    background: linear-gradient(to right, 
+    #2aa1af, #2172e6, #6c4dc0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+
+.clock {
+    background: #dec1b7;
+    padding: 10px;
+    width: 300px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.clock-time, .clock-ampm {
+    font-family:'Segoe UI', Tahoma, Verdana, sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    color: #6c4dc0;
+}
+
+.clock-time {
+    font-size: 60px;
+}
